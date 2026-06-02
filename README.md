@@ -39,16 +39,15 @@
 | Docker     | Latest  | Containerization |
 | Git        | -       | Version control |
 
-
 ## Architecture Diagram
 
 ```mermaid
-graph LR
-A[Client Browser] --> B[Flask App]
-B --> C[Routes]
-C --> D[Templates]
-C --> E[Static Files]
-B --> F[Python Logic]
+graph TD
+    A[Cliente Navegador] --> B[Aplicación Flask]
+    B --> C[Rutas]
+    C --> D[Plantillas HTML]
+    B --> E[Lógica en Python]
+    E --> F[Respuesta al Cliente]
 
 
 ### Actividad E. Requerimientos funcionales
@@ -66,3 +65,27 @@ RF-07 El sistema deberá documentar sus dependencias.
 RF-08 El sistema deberá responder con código HTTP 200 en rutas válidas.
 RF-09 El sistema deberá ser compatible con Python 3.9+.
 RF-10 El sistema deberá permitir su ejecución local con Flask.
+
+## Evidencias
+
+### Evidencia 1: Fork creado (imagen8)
+![Fork creado](images/imagen8.png)
+
+### Evidencia 2: git remote -v
+![git remote -v](images/imagen7.png)
+
+### Evidencia 3: git branch
+![git branch](images/imagen6.png)
+
+### Evidencia 4: git log --oneline
+![git log](images/imagen5.png)
+
+### Evidencia 5: Pull Request
+![Pull Request](images/imagen4.png)
+
+### Evidencia 6: URL del Pull Request
+![URL Pull Request](images/imagen3.png)
+
+### Evidencias adicionales
+![Extra 1](images/imagen1.png)
+![Extra 2](images/imagen2.png)
