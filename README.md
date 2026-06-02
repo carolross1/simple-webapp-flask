@@ -41,6 +41,7 @@
 
 ## Architecture Diagram
 
+```mermaid
 graph TD
     A[Cliente Navegador] --> B[Aplicación Flask]
     B --> C[Rutas]
