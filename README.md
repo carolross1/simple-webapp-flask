@@ -68,11 +68,12 @@ RF-10 El sistema deberá permitir su ejecución local con Flask.
 
 
 
-##EVIDENCIAS
-![alt text](image-1.png)
-![alt text](image.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+## Evidencias
+
+![Fork creado](images/image-1.png)
+![git remote -v](images/image.png)
+![git branch](images/image-2.png)
+![git log](images/image-3.png)
 
 
 https://github.com/mmumshad/simple-webapp-flask/pull/76
