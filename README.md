@@ -66,3 +66,18 @@ RF-07 El sistema deberá documentar sus dependencias.
 RF-08 El sistema deberá responder con código HTTP 200 en rutas válidas.
 RF-09 El sistema deberá ser compatible con Python 3.9+.
 RF-10 El sistema deberá permitir su ejecución local con Flask.
+
+
+
+##EVIDENCIAS
+![alt text](image-1.png)
+![alt text](image.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+
+https://github.com/mmumshad/simple-webapp-flask/pull/76
+
+## Team Members
+
+- RIOS RIOS CAROL GUADALUPE- Developer
