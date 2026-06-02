@@ -42,13 +42,12 @@
 
 ## Architecture Diagram
 
-```mermaid
 graph LR
-A[Client Browser] --> B[Flask App]
-B --> C[Routes]
-C --> D[Templates]
-C --> E[Static Files]
-B --> F[Python Logic]
+    A[Cliente] --> B[Aplicación Flask]
+    B --> C[Rutas]
+    C --> D[Plantillas]
+    C --> E[Archivos Estáticos]
+    B --> F[Lógica en Python]
 
 
 ### Actividad E. Requerimientos funcionales
